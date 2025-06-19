@@ -116,6 +116,7 @@ body {
 
 .content-box-column.flex-wrap>p {
     margin: auto;
+    text-align: center;
 }
 
 #quote-content {
@@ -152,6 +153,8 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
     gap: 10%;
     padding: 30px 40px;
 }
